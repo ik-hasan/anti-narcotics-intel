@@ -47,7 +47,7 @@ function p(text: string, opts?: { bold?: boolean; size?: number; color?: string 
   });
 }
 
-function heading(text: string, level = HeadingLevel.HEADING_1) {
+function heading(text: string, level: HeadingLevel = HeadingLevel.HEADING_1): Paragraph {
   return new Paragraph({
     heading: level,
     spacing: { before: 280, after: 120 },
