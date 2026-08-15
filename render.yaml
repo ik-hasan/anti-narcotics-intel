@@ -1,0 +1,87 @@
+services:
+  - type: web
+    name: narcograph-api
+    runtime: python
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    # One worker only. A second would roughly double baseline RSS and leave no
+    # headroom for the Phase 4 crawler subprocess inside the 512 MB limit.
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.6"
+      # glibc allocates one arena per thread and routinely strands 100+ MB in
+      # threaded Python. Capping arenas is a free ~20% RSS reduction.
+      - key: MALLOC_ARENA_MAX
+        value: "2"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: LOG_LEVEL
+        value: INFO
+
+      - key: NEO4J_URI
+        sync: false
+      - key: NEO4J_USER
+        value: neo4j
+      - key: NEO4J_PASSWORD
+        sync: false
+      - key: NEO4J_DATABASE
+        value: neo4j
+
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-flash-latest
+
+      - key: VOYAGE_API_KEY
+        sync: false
+      - key: VOYAGE_MODEL
+        value: voyage-4-lite
+      - key: VOYAGE_DIM
+        value: "1024"
+      # 2000/16M applies once a payment method is on file. Without one the account
+      # is capped at 3 RPM / 10k TPM -- lower these to match or requests will 429.
+      - key: VOYAGE_RPM
+        value: "2000"
+      - key: VOYAGE_TPM
+        value: "1000000"
+
+      - key: SEARXNG_URL
+        sync: false
+      - key: GOOGLE_CSE_KEY
+        sync: false
+      - key: GOOGLE_CSE_ID
+        sync: false
+      - key: SEARCH_PROVIDER_ORDER
+        value: searxng,duckduckgo,google_cse
+
+      - key: CRAWLER_BACKEND
+        value: httpx
+      - key: MAX_URLS_PER_QUERY
+        value: "10"
+      - key: CRAWL_TIME_BUDGET_SECONDS
+        value: "120"
+
+      - key: TOP_K
+        value: "100"
+      - key: SIMILARITY_GATE
+        value: "0.80"
+      - key: MIN_HIGH_CONF_CHUNKS
+        value: "10"
+      - key: FINAL_TOP_N
+        value: "15"
+      - key: GRAPH_MAX_HOPS
+        value: "3"
+
+      - key: CORS_ORIGINS
+        sync: false

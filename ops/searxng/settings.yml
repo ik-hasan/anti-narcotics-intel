@@ -1,0 +1,10 @@
+# Local SearXNG used by Mode B. JSON must be enabled for /search?format=json.
+use_default_settings: true
+server:
+  secret_key: "narcograph-local-searxng-change-me"
+  limiter: false
+  image_proxy: false
+search:
+  formats:
+    - html
+    - json

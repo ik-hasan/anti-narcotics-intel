@@ -1,0 +1,89 @@
+{
+  "_notice": "SYNTHETIC DEMO DATA. Every person, case and quantity below is fictional and written to exercise the graph schema and risk rules. Do not present as real reporting.",
+  "articles": [
+    {
+      "title": "NCB seizes 12 kg heroin in Mumbai dock operation, two held",
+      "url": "https://example-demo.invalid/mumbai-dock-heroin-seizure",
+      "published_at": "2026-01-14",
+      "source": "synthetic-demo",
+      "text": "The Narcotics Control Bureau seized 12 kg of heroin during a pre-dawn operation at a container yard near the Mumbai docks on Tuesday. Officials said the consignment was concealed inside a shipment of machine parts declared for export to Dubai. Two men, identified as Ravi Deshmukh and Salim Qureshi, were arrested at the site. NCB officers said Deshmukh had arranged clearing agent paperwork for at least three earlier consignments moving through the same yard. The agency estimated the street value of the seizure at Rs 84 crore. A case has been registered under the NDPS Act. Investigators said the consignment appeared to have entered the country through a coastal route and that the network used forged export documentation to move contraband. The Directorate of Revenue Intelligence has been asked to examine the customs filings associated with the shipment. Both accused were produced before a special NDPS court and remanded to custody for seven days."
+    },
+    {
+      "title": "Anti Narcotics Cell recovers 4.5 kg mephedrone from Andheri flat",
+      "url": "https://example-demo.invalid/andheri-mephedrone-lab",
+      "published_at": "2026-01-22",
+      "source": "synthetic-demo",
+      "text": "The Anti Narcotics Cell recovered 4.5 kg of mephedrone, locally known as MD, from a rented flat in Andheri, Mumbai, following a tip-off. Police said the flat was being used to repackage the drug into smaller sachets for distribution across nightclubs in the western suburbs. One person, Anwar Sheikh, was arrested. Officers recovered digital weighing scales, packaging material and Rs 6 lakh in cash. Investigators said Sheikh had been in regular contact with Salim Qureshi, an accused in an earlier heroin seizure at the Mumbai docks. The Anti Narcotics Cell said the two men appeared to be part of the same distribution network operating across Mumbai. A case has been registered under the NDPS Act and further investigation is under way. Police said they are examining call detail records to identify the supplier of the precursor chemicals used in the operation."
+    },
+    {
+      "title": "DRI intercepts 2 kg cocaine at Mumbai airport, courier arrested",
+      "url": "https://example-demo.invalid/mumbai-airport-cocaine",
+      "published_at": "2026-02-03",
+      "source": "synthetic-demo",
+      "text": "The Directorate of Revenue Intelligence intercepted a passenger arriving at Chhatrapati Shivaji Maharaj International Airport in Mumbai and recovered 2 kg of cocaine concealed in the lining of a suitcase. The passenger, identified as Joseph Fernandes, had arrived on a flight originating in Sao Paulo. DRI officials said the cocaine was of high purity and valued at approximately Rs 20 crore. During questioning Fernandes said he had been recruited in Goa and paid to carry the consignment to Mumbai, where he was to hand it to a contact. Officials said the case indicates that Mumbai continues to function as a distribution hub for multiple categories of narcotics, including opioids, synthetic stimulants and cocaine. A case has been registered under the NDPS Act. The DRI said it is coordinating with the Narcotics Control Bureau on the wider network."
+    },
+    {
+      "title": "Pune police bust MD supply ring, 3.2 kg seized",
+      "url": "https://example-demo.invalid/pune-md-supply-ring",
+      "published_at": "2026-02-17",
+      "source": "synthetic-demo",
+      "text": "Pune police seized 3.2 kg of mephedrone and arrested four people in a coordinated operation across Kothrud and Hadapsar. Police said the ring supplied the drug to college students and had been operating for about eight months. Among those arrested was Ravi Deshmukh, who is already an accused in a heroin seizure at the Mumbai docks in January. Officers said Deshmukh coordinated transport of consignments between Mumbai and Pune using hired cars. Also arrested were Farhan Ansari and two others. The crime branch said the seizure is valued at approximately Rs 6 crore. A case has been registered under the NDPS Act. Investigators said they are examining whether the Pune ring received supply from the same Mumbai network under investigation by the Anti Narcotics Cell."
+    },
+    {
+      "title": "BSF recovers 8 kg heroin near Amritsar border outpost",
+      "url": "https://example-demo.invalid/amritsar-border-heroin",
+      "published_at": "2026-02-25",
+      "source": "synthetic-demo",
+      "text": "The Border Security Force recovered 8 kg of heroin in a field near a border outpost in Amritsar district, Punjab. Officials said the packets were fitted with iron rings and appeared to have been dropped by a drone from across the international border. No arrests were made at the site. The BSF handed the seizure to Punjab police, which registered a case under the NDPS Act. Police said drone-assisted drops have become a recurring method of moving heroin into Punjab, with consignments later transported towards Delhi and onward to Mumbai for distribution. Investigators said the packaging markings matched those found in an earlier seizure in the same district. The estimated value of the recovered heroin is Rs 40 crore."
+    },
+    {
+      "title": "Delhi police seize 60,000 tramadol tablets from Karol Bagh godown",
+      "url": "https://example-demo.invalid/delhi-tramadol-godown",
+      "published_at": "2026-03-05",
+      "source": "synthetic-demo",
+      "text": "Delhi police seized 60,000 tramadol tablets from a godown in Karol Bagh and arrested two people. Police said the tablets were being diverted from legitimate pharmaceutical supply and repackaged for illegal sale. The accused were identified as Vikas Chauhan and Imran Malik. Officers said the consignment was destined for markets in Punjab and Maharashtra. The Narcotics Control Bureau has joined the investigation because of the interstate dimension. Police said Chauhan operated a licensed medical supply firm that was used as cover for the diversion. A case has been registered under the NDPS Act. Investigators are examining invoices to identify the manufacturing units from which the tablets were sourced."
+    },
+    {
+      "title": "Nashik crime branch seizes 1.1 kg heroin, one arrested",
+      "url": "https://example-demo.invalid/nashik-heroin-arrest",
+      "published_at": "2026-03-19",
+      "source": "synthetic-demo",
+      "text": "The Nashik crime branch seized 1.1 kg of heroin during a vehicle check on the Mumbai-Agra highway and arrested one person. The accused, Ravi Deshmukh, was travelling in a hired car and the contraband was concealed in a modified cavity beneath the rear seat. Police said Deshmukh is already an accused in narcotics cases registered in Mumbai and Pune. Officers said the seizure indicates the highway is being used as a transit corridor for consignments moving inland from the Mumbai coast. The estimated value of the seizure is Rs 7 crore. A case has been registered under the NDPS Act and Deshmukh was remanded to police custody. Investigators said they are seeking custody of the vehicle owner for questioning."
+    },
+    {
+      "title": "Goa police dismantle party drug network, LSD and ecstasy seized",
+      "url": "https://example-demo.invalid/goa-party-drug-network",
+      "published_at": "2026-03-28",
+      "source": "synthetic-demo",
+      "text": "Goa police dismantled a network supplying synthetic drugs to beach parties in north Goa, seizing 220 LSD blots and 900 ecstasy tablets. Three people were arrested, including Joseph Fernandes, who police said had earlier been detained by the Directorate of Revenue Intelligence in a cocaine case at Mumbai airport. Police said the network recruited couriers in Goa and moved consignments to Mumbai and Bengaluru. The Anti Narcotics Cell of Goa police said the group used encrypted messaging to coordinate deliveries and accepted payment in cryptocurrency. A case has been registered under the NDPS Act. Officers said the seizure is valued at approximately Rs 3 crore and that further arrests are expected."
+    },
+    {
+      "title": "Bengaluru CCB seizes 900 g hydroponic ganja, courier held",
+      "url": "https://example-demo.invalid/bengaluru-hydroponic-ganja",
+      "published_at": "2026-04-08",
+      "source": "synthetic-demo",
+      "text": "The Central Crime Branch in Bengaluru seized 900 g of hydroponic ganja and arrested a courier who had arrived from Goa. Police said the consignment was booked through a private courier service with false documentation describing the parcel as handicraft items. The accused, Nikhil Rao, told investigators he had made four similar trips over three months. Police said the supply originated with a network operating in north Goa that is already under investigation. The estimated value of the seizure is Rs 90 lakh. A case has been registered under the NDPS Act. The Central Crime Branch said it has written to Goa police seeking details of the network."
+    },
+    {
+      "title": "Customs finds 300 g cocaine in air cargo consignment at Delhi",
+      "url": "https://example-demo.invalid/delhi-cargo-cocaine",
+      "published_at": "2026-04-21",
+      "source": "synthetic-demo",
+      "text": "Customs officials at the air cargo complex in Delhi recovered 300 g of cocaine concealed inside hollowed wooden artefacts declared as decorative items. No arrests were made at the time of seizure. Officials said the consignment had been shipped from Africa and was addressed to a trading firm in Karol Bagh. The Narcotics Control Bureau said the recipient address matched a firm linked to Vikas Chauhan, an accused in a tramadol diversion case registered in Delhi in March. A case has been registered under the NDPS Act. Customs said the concealment method was sophisticated and required X-ray screening to detect. Investigators are examining shipping records for earlier consignments sent to the same address."
+    },
+    {
+      "title": "Punjab police seize 25 kg poppy husk in Ludhiana, two arrested",
+      "url": "https://example-demo.invalid/ludhiana-poppy-husk",
+      "published_at": "2026-05-02",
+      "source": "synthetic-demo",
+      "text": "Punjab police seized 25 kg of poppy husk from a truck during a check near Ludhiana and arrested two people. Police said the consignment was concealed under a load of cattle feed and had been transported from Rajasthan. The accused were identified as Gurpreet Singh and Imran Malik, the latter already an accused in a tramadol case registered in Delhi. Officers said the arrest establishes a link between the Delhi pharmaceutical diversion network and a Punjab-based transport group. A case has been registered under the NDPS Act. Police said the truck has been seized and its registered owner is being questioned."
+    },
+    {
+      "title": "NCB Mumbai arrests two in mephedrone precursor case",
+      "url": "https://example-demo.invalid/mumbai-mephedrone-precursor",
+      "published_at": "2026-05-19",
+      "source": "synthetic-demo",
+      "text": "The Narcotics Control Bureau arrested two people in Mumbai in connection with the supply of ephedrine used to manufacture mephedrone. Officials said 18 kg of ephedrine was recovered from a warehouse in Bhiwandi. The accused were identified as Farhan Ansari, already an accused in a Pune mephedrone case, and Salim Qureshi, an accused in a heroin seizure at the Mumbai docks. NCB officials said the arrests connect the Pune distribution ring with the Mumbai import network, and that both groups appear to have drawn on the same precursor supply. A case has been registered under the NDPS Act. Officials said the recovered ephedrine could have produced an estimated 30 kg of mephedrone. Investigators are examining whether a licensed chemical firm diverted the consignment."
+    }
+  ]
+}
