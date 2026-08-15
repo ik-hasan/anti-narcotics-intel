@@ -47,20 +47,14 @@ function p(text: string, opts?: { bold?: boolean; size?: number; color?: string 
   });
 }
 
-// function heading(text: string, level = HeadingLevel.HEADING_1) {
-//   return new Paragraph({
-//     heading: level,
-//     spacing: { before: 280, after: 120 },
-//     children: [new TextRun({ text, font: "Calibri" })],
-//   });
-// }
-function heading(text: string, level: HeadingLevel = HeadingLevel.HEADING_1) {
+function heading(text: string, level = HeadingLevel.HEADING_1) {
   return new Paragraph({
     heading: level,
     spacing: { before: 280, after: 120 },
     children: [new TextRun({ text, font: "Calibri" })],
   });
 }
+
 
 async function fetchNetwork(result: AskResponse): Promise<{ focus: string; network: Network } | null> {
   const names = [
